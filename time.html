@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta nAMe="viewport" content="width=device-width, initial-scale=1.0">
+    <title>open time & reserve</title>
+    <link rel="stylesheet" href="time.css">
+    <script src="https://kit.fontawesome.com/80de74de23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="index.js"> </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Cairo:wght@200&family=Open+Sans:ital,wght@1,300;1,600&family=Yanone+Kaffeesatz:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="order">
+
+        <div><a href="order.html"><i class="fa-solid fa-bolt-lightning"></i> Order Now</a></div>
+    </div>
+    <div class="icon-bar">
+        <a title="dark mode"><i onclick="darkmode()" class="fa-solid fa-circle-half-stroke"></i></a>
+        <a href="index.html" title="home"><i class="fa fa-home"></i></a>
+        <a href="menu.html" title="menu"><i class="fa-solid fa-clipboard-list"></i></a>
+        <a href="time.html" title="contact us"><i class="fa-solid fa-clock"></i></a>
+        <a href="final.html" title="address"><i class="fa-solid fa-address-card"></i></a>
+    </div>
+    <div class="continer">
+        <div class="nav_bar">
+            <div class="logo">
+                <i class="fa-solid fa-fire-burner"> CRanshy</i>
+       <a title="dark mode" id="darkmode"><i onclick="darkmode()" class="fa-solid fa-circle-half-stroke  "></i></a>
+
+            </div>
+            <div class="nav_list">
+                <div class="home"><a href="index.html">Home</a></div>
+                <div class="home"><a href="order.html">Sign up</a></div>
+                <div class="home"><a href="time.html">Reserve</a></div>
+                <div class="menu"><a href="menu.html">Menu</a></div>
+                <div class="about"><a href="final.html">About us</a></div>
+            </div>
+        </div>
+        <!-- intro -->
+
+        <div class="intro">
+            <h2>Hungry Time?</h2>
+            <p>Lorem ipsum dolor sit AMet consectetur adipisicing elit. Perferendis asperiores harum debitis, magni
+                vitae accusantium molestias maxime veritatis voluptates officia, aliquid numquAM rerum soluta ipsa.
+                Magni sed nulla non unde.</p>
+        </div>
+
+        <!-- intro end -->
+        <!-- end of nav bar -->
+
+        <!-- start of table -->
+
+
+
+        <div class="table">
+
+            <table style="width: 30%; font-size:10px; height: 200px;">
+                <colgroup>
+                    <col span="2" style="background-color: #D6EEEE">
+                </colgroup>
+                <tr>
+                    <th>Breakfast</th>
+                    <th>SUN</th>
+                    <th bgcolor="#EBECF0">MON</th>
+                    <th bgcolor="#EBECF0">TUE</th>
+                    <th bgcolor="#EBECF0">WED</th>
+                    <th bgcolor="#EBECF0">THU</th>
+                    <th bgcolor="#EBECF0">FRI</th>
+                    <th bgcolor="#EBECF0">SAT</th>
+
+                </tr>
+                <tr>
+                    <td>Lunch</td>
+                    <td>5:00AM</td>
+                    <td colspan="4" bgcolor=" #D6EEEE" style="text-align:center ;">2:00AM</td>
+                    <td bgcolor="#D6EEEE" colspan="2" style="text-align: center;">4:00PM</td>
+
+                </tr>
+
+                <tr>
+
+                    <td bgcolor="#D6EEEE">dinner</td>
+                    <td bgcolor="#D6EEEE">7:00AM</td>
+                    <td bgcolor="#EBECF0">10:00AM</td>
+                    <td bgcolor="#EBECF0">12:00AM</td>
+                    <td bgcolor="#EBECF0">8:00AM</td>
+                    <td bgcolor="#EBECF0">7:00AM</td>
+                    <td bgcolor="#EBECF0">9:00AM</td>
+                    <td bgcolor="#EBECF0">10:00AM</td>
+                </tr>
+
+            </table>
+
+        </div>
+        <div class="form">
+                <h4>Reserve a table in the resturant </h4>
+                <input type="text" placeholder="FULL Name" class="name">
+                <input type="email" placeholder="E-mail" class="email">
+                <input type="text" placeholder="Phone" class="phone">
+                <div class="reserve_time">
+                    <input type="time">
+                    <input type="date">
+                </div>
+                <select name="branch" id="branch" class="branch">
+                    <option value="cairo-Alzaitoun">cairo,El-zaitoun</option>
+                    <option value="cairo-korba">cairo,El-Korba</option>
+                    <option value="Giza,El-Douki">Giza,El-Douki</option>
+                    <option value="Sohag,Bla-bla">Sohag,Bla-bla</option>
+                </select>
+                <div class="hr"></div>
+                <div class="buttons">
+                    <input type="submit" value="Reserve" id="reserve">
+                    <input type="reset" value="cancel" id="cancel">
+                </div>
+
+        </div>
+
+
+
+
+
+        <!-- end of table -->
+        <!-- start of footer -->
+        <div class="footer">
+            <div class="footer_one">
+                <h3>About Us</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit AMet consectetur adipisicing elit. Fugit, ratione commodi similique</p>
+                <div class="footer_one_social">
+                    <div> <a href="#"><i class="fa-brands fa-facebook"></i></a></div>
+                    <div> <a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div><a href="#"><i class="fa-brands fa-youtube"></i></a></div>
+                    <div><a href="#"><i class="fa-brands fa-whatsapp-square"></i></a></div>
+                </div>
+            </div>
+
+            <div class="footer_two">
+                <h3>Our Branches</h3>
+                <hr>
+                <div><i class="fa-solid fa-location-dot"></i> Cairo,Elzaitoun</div>
+                <div><i class="fa-solid fa-location-dot"></i> cairo,El korba</div>
+                <div><i class="fa-solid fa-location-dot"></i> Giza,Douki</div>
+                <div><i class="fa-solid fa-location-dot"></i> Sohag,bla bla</div>
+
+            </div>
+            <div class="footer_three">
+                <h3>Whats,new?</h3>
+                <hr>
+                <div><a href="menu.html"><i class="fa-solid fa-arrow-right"></i> mighty zinger</a></div>
+                <div><a href="menu.html"><i class="fa-solid fa-arrow-right"></i> buffel bief</a></div>
+                <div><a href="menu.html"><i class="fa-solid fa-arrow-right"></i> stick lover</a></div>
+                <div><a href="menu.html"><i class="fa-solid fa-arrow-right"></i> snack box</a></div>
+
+            </div>
+
+        </div>
+        <div class="bye">
+            <div class="logo">
+                <i class="fa-solid fa-fire-burner" style="color: white;"> CRanshy</i>
+            </div>
+            <h6 class="copyright">copyright &copy;2022 Tony mihkael</h6>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

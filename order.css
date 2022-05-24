@@ -1,0 +1,377 @@
+body p{
+    font-family: 'Open Sans', sans-serif;
+    }
+    body h1,h2,h3,h4,h5,h6{
+        font-family: 'BhuTuka Expanded One', cursive;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+:root {
+    --miancolor: rgb(224, 108, 108);
+    --bgcolor: #EBECF0;
+}
+
+
+
+p {
+    opacity: 0.9;
+}
+
+.order_container {
+    margin-top: 0px;
+    background-color:rgb(65, 63, 63);
+    color: white;
+    border-radius: 5px;
+
+}
+
+.order_container .emailorpass,
+select {
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.order_container select {
+    width: 50%;
+    margin-left: -30%;
+}
+
+.order_container .checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.submitandcancel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.order_input {
+    width: 40%;
+    color: white;
+    background-color: rgb(75, 201, 75);
+    box-shadow: 1px 1px 5px green;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+
+}
+.order_input,.cancel_input:hover{
+    opacity: 0.9;
+   cursor: pointer;
+}
+input:active{
+   outline-color: var(--miancolor);
+}
+
+.cancel_input {
+    color: white;
+    background-color: rgb(203, 110, 110);
+    width: 40%;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+textarea {
+    width: 90%;
+    height: 50px;
+}
+
+h1 {
+
+    color: green;
+    font-style: italic;
+    margin-bottom: 0px;
+
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.images img {
+    width: 50%;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer hr {
+    margin-top: -20px;
+    width: 80%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #599;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact a:hover {
+    color: red;
+}
+/* name */
+.name{
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+.name input{
+    width: 50%;
+    margin: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+@media screen and (min-width: 300px) {
+    body {
+        font-size: x-large;
+    }
+
+    img {
+        width: 30%;
+        height: 150px;
+
+    }
+
+    i {
+        font-size: larger;
+    }
+
+    input,
+    select {
+        margin-top: 10px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+
+    .icon-bar {
+        z-index: 1;
+        background-color: var(--bgcolor);
+        width: 30px;
+        font-size: 15px;
+        border-radius: 20px;
+        height: fit-content;
+        padding-top: px;
+        margin-top: 5px;
+        position: fixed;
+        top: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+    .nav_list{
+        font-size:large;
+    }
+
+    .icon-bar a {
+        color: black;
+        margin-top: 10px;
+    }
+
+    .icon-bar a:hover {
+        color: var(--miancolor);
+    }
+
+    @media screen and (min-width: 462px) {
+        .icon-bar {
+            width: 50px;
+            font-size: 25px;
+        }
+
+        .phone,
+        .address {
+            width: 80%;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+
+
+    /* new input */
+    .phone,
+    .address {
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    .gender {
+        margin: 20px;
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .gender input {
+        width: 20px;
+        margin: 20px;
+    }
+
+    .hrafter {
+        width: 90%;
+    }
+
+    .checkbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .checkbox div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .checkbox div input {
+        margin: 15px;
+    }
+
+    /* header */
+    .nav_bar {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        background-color: var(--bgcolor);
+        justify-content: space-between;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        box-shadow: 3px 3px 5px grey;
+    }
+
+    .logo {
+        color: var(--miancolor);
+    }
+
+    .logo:hover {
+        cursor: pointer;
+    }
+
+    .nav_list {
+        padding-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .nav_list a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav_list a:hover {
+        text-decoration: underline;
+        color: var(--miancolor);
+    }
+
+    .nav_list div {
+        margin-left: 10px;
+    }
+
+    .sign {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    /* media query */
+@media screen and (min-width: 600px)
+{
+body{
+font-size: x-large;
+}
+.icon-bar{
+display: none;
+}
+.nav_bar{
+position: sticky;
+top: 0px;
+z-index: 1;
+}
+.order{
+width: 100px;
+}
+
+}
+@media screen and (max-width: 463px ){
+.contact_one div a{
+padding-left: 5px;
+}
+.nav_list{
+display: none;
+}
+#darkmode{
+    display: none;
+}
+
+}
+
+
+.logo #darkmode{
+    margin-left: 50px;
+}
+
+
+
+/* new edit */
+@media screen and (min-width: 700px){
+    .nav_list{
+        font-size: xx-large;
+    }
+}
+
+.nav_list div{
+    margin-left: 20px;
+}
+
+/* end new edit */
