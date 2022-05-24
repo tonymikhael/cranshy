@@ -529,7 +529,7 @@ color: red;
 
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 300px){
     .chief_cover{
         background-color: var(--miancolor);
         background-image: none;
