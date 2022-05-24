@@ -369,7 +369,7 @@ input:hover{
 
 
 /* * media query */ 
-@media screen and (min-width: 462px)
+@media screen and (min-width: 600px)
 {
     body{
         font-size: x-large;
