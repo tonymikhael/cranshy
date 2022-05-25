@@ -70,7 +70,7 @@ return false;
 }
 
 if (!password.match(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8}$/)){
-  alert("password must include 8 characters only, one special character at last, include one digit and no space ") ;
+  alert("password must include 8 characters only, one special character at least, include one digit and no space ") ;
   return false;
 }
 
